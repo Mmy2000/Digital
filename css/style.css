@@ -23,6 +23,7 @@ a {
     font-family: var(--secend-font);
     font-weight: bold;
     z-index: 999;
+    text-transform: uppercase;
 }
 
 .nav .name h1 {
@@ -79,9 +80,10 @@ a {
     padding: 5px 0;
 }
 .header{
-    background-image: url(../img/hero-bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(../img/hero-bg.jpg);
     background-position: center center;
     background-size: cover;
+    color: #fff;
 }
 
 @media (min-width:825px) {
@@ -95,5 +97,8 @@ a {
     .nav .nav-items ul {
         display: flex;
         column-gap: 40px;
+    }
+    .header h1{
+        font-size: 4.5rem;
     }
 }
