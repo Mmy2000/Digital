@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 .nav {
-    background-color: white;
+    background-color: rgb(255, 255, 255,0);
     padding: 20px 20px;
     position: fixed;
     top: 0;
@@ -22,7 +22,6 @@ a {
     left: 0;
     font-family: var(--secend-font);
     font-weight: bold;
-    box-shadow: 0px 0px 21px 0px #0003;
     z-index: 999;
 }
 
@@ -31,7 +30,7 @@ a {
 }
 
 .nav .name a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .nav .nav-items {
@@ -55,11 +54,11 @@ a {
     bottom: 0;
     transform: translateX(101%);
     transition: transform 0.5s ease;
-    border-bottom: 3px #ce1212 solid;
+    border-bottom: 3px #ffffff solid;
 }
 
 .nav .nav-items ul li a {
-    color: #8c8c8c;
+    color: #ffffff;
     font-weight: bold;
     transition: color 0.5s;
 
@@ -68,7 +67,7 @@ a {
 .nav .nav-items ul .nav-item:hover .nav-item-cover,
 .nav .nav-items ul .nav-item li a:hover {
     transform: translateX(0%);
-    color: #000000;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -79,7 +78,11 @@ a {
 .nav .nav-items ul li {
     padding: 5px 0;
 }
-
+.header{
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 
 @media (min-width:825px) {
     .nav {
