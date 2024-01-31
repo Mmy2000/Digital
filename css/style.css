@@ -84,7 +84,14 @@ a {
     background-size: cover;
     color: #fff;
 }
-
+li{
+    list-style: none;
+}
+.about ul li .li-style{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
