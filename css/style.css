@@ -99,6 +99,14 @@ li{
     font-size: 1.25rem;
     font-weight: 300;
 }
+.about .line{
+    display: flex;
+    justify-content: start;
+}
+.about .line .line1 {
+    border-top: 4px solid #0078ff;
+    width: 100px;
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
