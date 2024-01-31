@@ -21,7 +21,6 @@ a {
     right: 0;
     left: 0;
     font-family: var(--secend-font);
-    font-weight: bold;
     z-index: 999;
     text-transform: uppercase;
 }
@@ -60,8 +59,8 @@ a {
 
 .nav .nav-items ul li a {
     color: #ffffff;
-    font-weight: bold;
     transition: color 0.5s;
+    font-size: 1rem;
 
 }
 
