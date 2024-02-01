@@ -173,6 +173,13 @@ li{
     text-decoration: none;
     color: #4e4e4e;
 }
+.services .card-style{
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
