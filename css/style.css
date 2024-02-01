@@ -201,6 +201,23 @@ li{
 .services .icon-style i{
     font-size: 2rem;
 }
+.facts{
+    color: white;
+}
+.style{
+    background-image: linear-gradient(rgb(0, 122, 255,0.5),rgb(0, 122, 255,0.5)) , url(../img/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.facts .icon-style{
+    width: 80px;
+    height: 80px;
+    border: 10px solid rgb(198, 224, 254);
+    transition: all 0.5s;
+}
+.facts .icon-style i{
+    font-size: 2rem;
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
