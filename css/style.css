@@ -208,6 +208,7 @@ li{
     background-image: linear-gradient(rgb(0, 122, 255,0.5),rgb(0, 122, 255,0.5)) , url(../img/counters-bg.jpg);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 .facts .icon-style{
     width: 80px;
