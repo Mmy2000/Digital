@@ -247,6 +247,7 @@ li{
 }
 .portfolio .card-style{
     border: none;
+    border-radius: none;
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 1s;
