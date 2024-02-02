@@ -310,6 +310,39 @@ li{
 .blog .card-style{
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
+.contact .line{
+    display: flex;
+    justify-content: start;
+}
+.contact .line .line1 {
+    border-top: 4px solid #0078ff;
+    width: 100px;
+}
+
+.contact .container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+.contact .container .message textarea {
+    width: 100%;
+    height: 140px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}
+.contact .btn-style{
+    transition: all 0.4s ease;
+}
+.contact .btn-style:hover{
+    background-color: #0c9ee1;
+    border:  solid #9de0ff;
+}
+
+
+
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
