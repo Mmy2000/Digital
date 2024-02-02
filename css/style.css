@@ -280,6 +280,26 @@ li{
     font-size: 1.25rem;
     font-weight: 300;
 }
+.blog .line{
+    display: flex;
+    justify-content: center;
+}
+.blog .line .line1 {
+    border-top: 4px solid #0078ff;
+    width: 50px;
+}
+.blog .avatar{
+        width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+.blog  .h2-style{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
