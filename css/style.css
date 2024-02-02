@@ -265,6 +265,17 @@ li{
     display: block;
     transition: transform 1s;
 }
+.testimonial .container-style{
+    height: 80vh;
+    color: white;
+    background-image: linear-gradient(rgb(0, 122, 255,0.5),rgb(0, 122, 255,0.5)) , url(../img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonial .container-style h3{
+    text-transform: uppercase;
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
