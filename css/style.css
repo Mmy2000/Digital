@@ -209,6 +209,7 @@ li{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    height: 50vh;
 }
 .facts .icon-style{
     width: 80px;
@@ -218,6 +219,24 @@ li{
 }
 .facts .icon-style i{
     font-size: 2rem;
+}
+.portfolio .line{
+    display: flex;
+    justify-content: center;
+}
+.portfolio .line .line1 {
+    border-top: 4px solid #0078ff;
+    width: 50px;
+}
+.portfolio h2{
+        text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.portfolio p{
+    text-decoration: none;
+    color: #4e4e4e;
 }
 @media (min-width:768px) {
     .nav-bar {
