@@ -340,9 +340,13 @@ li{
     background-color: #0c9ee1;
     border:  solid #9de0ff;
 }
-
-
-
+.contact .para{
+        font-size: 1.25rem;
+    font-weight: 300;
+}
+.contact .icons-1 i{
+    color: #0078ff;
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
