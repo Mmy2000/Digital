@@ -249,6 +249,10 @@ li{
     border: none;
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
+.portfolio .card-style .icon-style{
+    color: #0078ff;
+    font-size: 2.5rem;
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
