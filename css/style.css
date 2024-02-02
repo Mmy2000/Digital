@@ -250,7 +250,6 @@ li{
     border-radius: none;
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 1s;
 }
 .portfolio .card-style .icon-style{
     color: #0078ff;
@@ -258,10 +257,13 @@ li{
 }
 .portfolio .card-style:hover img{
     transform: scale(1.2,1.2);
-    transition: transform 1s;
 }
 .portfolio .card-style .img{
     overflow: hidden;
+}
+.portfolio .card-style img{
+    display: block;
+    transition: transform 1s;
 }
 @media (min-width:768px) {
     .nav-bar {
