@@ -228,15 +228,26 @@ li{
     border-top: 4px solid #0078ff;
     width: 50px;
 }
-.portfolio h2{
+.portfolio > h2{
         text-decoration: none;
     font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
 }
-.portfolio p{
+.portfolio > p{
     text-decoration: none;
     color: #4e4e4e;
+}
+.portfolio .card-style h2{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+.portfolio .card-style .cat-style{
+    color: #0078ff;
+}
+.portfolio .card-style{
+    border: none;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 @media (min-width:768px) {
     .nav-bar {
