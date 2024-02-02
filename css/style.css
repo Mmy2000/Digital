@@ -268,13 +268,17 @@ li{
 .testimonial .container-style{
     height: 80vh;
     color: white;
-    background-image: linear-gradient(rgb(0, 122, 255,0.5),rgb(0, 122, 255,0.5)) , url(../img/overlay-bg.jpg);
+    background-image: linear-gradient(rgb(0, 122, 255,0.6),rgb(0, 122, 255,0.8)) , url(../img/overlay-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 .testimonial .container-style h3{
     text-transform: uppercase;
+}
+.testimonial .container-style p{
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 @media (min-width:768px) {
     .nav-bar {
