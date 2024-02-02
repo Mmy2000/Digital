@@ -307,6 +307,9 @@ li{
     letter-spacing: 0.1px;
     margin-bottom: 0;
 }
+.blog .card-style{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
 @media (min-width:768px) {
     .nav-bar {
         display: flex;
