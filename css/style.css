@@ -357,10 +357,10 @@ li{
     border: 1px solid #ccc;
 }
 .contact .btn-style{
-    transition: all 0.4s ease;
+    transition: all 0.4s;
+    border: #0078ff solid;
 }
-.contact .btn-style:hover{
-    background-color: #0c9ee1;
+.contact button:hover{
     border:  solid #9de0ff;
 }
 .contact .para{
